@@ -1,13 +1,17 @@
 body, html {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding-top: 100px;
     font-family: 'Arial', sans-serif;
 }
 
 .about-us {
-    background-color: #9169c1;
+
+    background-color: #background-color: #ababd4;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #ababd4 20%, #ababd4 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ababd4 20%, #ababd4 80%, transparent 80%, transparent) 20px 20px, linear-gradient(#d8daff 1.6px, transparent 1.6px) 0 -0.8px, linear-gradient(90deg, #d8daff 1.6px, #ababd4 1.6px) -0.8px 0;
+background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;;
     color: #fff;
-    padding: 100px 0;
+    padding: 100px 100px;
 }
 
 .container {
@@ -15,6 +19,7 @@ body, html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+     margin-top: 30px;
     max-width: 1200px;
     margin: 0 auto;
 }
